@@ -1,4 +1,4 @@
-# scoringChamp
+# 🏆⛵ ScoringChamp
 
 *Outil de classement pour championnats de voile — fichier HTML autonome, sans installation.*
 
@@ -9,7 +9,7 @@
 
 ## 📖 Présentation
 
-**scoringChamp** est un outil de gestion et de publication de classements pour les championnats de voile FFVoile. Il s'agit d'un fichier HTML unique (sans dépendance externe, sans serveur) que vous ouvrez dans votre navigateur pour :
+**ScoringChamp** est un outil de gestion et de publication de classements pour les championnats de voile FFVoile. Il s'agit d'un fichier HTML unique (sans dépendance externe, sans serveur) que vous ouvrez dans votre navigateur pour :
 
 - importer les fichiers CSV notamment produits par la FFVoile étape par étape,
 - calculer automatiquement le classement selon la règle A8 (Total, puis scores triés, puis ordre inverse des courses),
@@ -40,8 +40,8 @@
 
 Aucune installation requise.
 
-1. Télécharger [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=dernière%20version&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest) le fichier `scoringChamp.html`.
-2. L'ouvrir dans votre navigateur (Chrome ou Firefox recommandé).
+1. Cliquer ici pour démarrer l'application ou télécharger le fichier `scoringChamp.html` [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=dernière%20version&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest) pour l'utiliser en mode hors-ligne.
+2. [Uniquement pour le mode offline] Ouvrir le fichier `scoringChamp.html` dans votre navigateur (Chrome ou Firefox recommandé).
 3. Dans l'onglet **Étapes**, ajouter chaque étape et y glisser-déposer les fichiers CSV SCORE correspondants.
 4. Dans l'onglet **Catégories**, configurer les supports, les catégories et les pénalités.
 5. Cliquer sur **Calculer le classement**.
