@@ -2,14 +2,14 @@
 
 *Outil de classement pour championnats de voile — fichier HTML autonome, sans installation.*
 
-[![GitHub License](https://img.shields.io/github/license/Mttwt9/scoring-voile?style=flat-square&color=blue)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/Mttwt9/scoringChamp?style=flat-square&color=blue)](LICENSE)
 [![Single file](https://img.shields.io/badge/distribution-single%20HTML%20file-green?style=flat-square)]()
 
 ---
 
-## 📖 Introduction
+## 📖 Présentation
 
-**scoring-voile** est un outil de gestion et de publication de classements pour les championnats de voile FFVoile. Il s'agit d'un fichier HTML unique (sans dépendance externe, sans serveur) que vous ouvrez dans votre navigateur pour :
+**scoringChamp** est un outil de gestion et de publication de classements pour les championnats de voile FFVoile. Il s'agit d'un fichier HTML unique (sans dépendance externe, sans serveur) que vous ouvrez dans votre navigateur pour :
 
 - importer les fichiers CSV notamment produits par la FFVoile étape par étape,
 - calculer automatiquement le classement selon la règle A8 (Total, puis scores triés, puis ordre inverse des courses),
@@ -40,7 +40,7 @@
 
 Aucune installation requise.
 
-1. Télécharger [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoring-voile?style=flat-square&label=dernière%20version&color=magenta)](https://github.com/Mttwt9/scoring-voile/releases/latest) le fichier `scoring_voile.html`.
+1. Télécharger [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=dernière%20version&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest) le fichier `scoringChamp.html`.
 2. L'ouvrir dans votre navigateur (Chrome ou Firefox recommandé).
 3. Dans l'onglet **Étapes**, ajouter chaque étape et y glisser-déposer les fichiers CSV SCORE correspondants.
 4. Dans l'onglet **Catégories**, configurer les supports, les catégories et les pénalités.
@@ -52,9 +52,10 @@ Aucune installation requise.
 
 ## 📂 Format des fichiers CSV attendus
 
-L'outil accepte les exports CSV produits par **SCORE FFVoile** (format général classements et format intersérie). Le délimiteur (virgule, point-virgule ou tabulation) est détecté automatiquement.
+L'outil accepte les exports CSV produits par la **FFVoile**, à l'aide du bouton _Exporter_ puis _Exporter en CSV_ dans la page d'un résultat (le bouton est à la fin de la page sur la droite). 
 
 Les colonnes utilisées sont : numéro de voile, nom du coureur, numéro de licence, club, catégorie, genre, place, points.
+Le délimiteur (virgule, point-virgule ou tabulation) est détecté automatiquement.
 
 ---
 
@@ -64,7 +65,7 @@ Les colonnes utilisées sont : numéro de voile, nom du coureur, numéro de lice
 |---|---|
 | `1 (5)` | Place 1 — 5 points CSV |
 | `ABS (28)` | Absent à l'étape — 28 points de pénalité |
-| `DNA (31)` | Did Not Arrive — 31 points de pénalité |
+| `DNA (31)` | Non classé sur l'épreuve (ex. DNF sur toutes les courses) — 31 points de pénalité |
 | `—` | Pas de classement pour cette série à cette étape |
 | Score barré en diagonale | Score retiré (discard) |
 | `11 [19]` | Total net 11, total brut 19 (avant retrait) |
@@ -74,11 +75,11 @@ Les colonnes utilisées sont : numéro de voile, nom du coureur, numéro de lice
 
 ## 🏗️ Architecture
 
-Le projet tient entièrement dans **un seul fichier HTML** (~2 600 lignes), sans dépendance externe ni framework. Il embarque :
+Le projet tient entièrement dans **un seul fichier HTML**, sans dépendance externe ni framework. Il embarque :
 
 - le moteur de parsing CSV et de calcul du classement,
 - l'interface d'administration (gestion des étapes, catégories, paramètres),
-- deux surfaces de publication : widget JavaScript (`simpleJS`) et page HTML autonome (`widgetJS`),
+- deux surfaces de publication : widget JavaScript (`simpleJS`) pour intégration dans un CMS et page HTML autonome (`widgetJS`),
 - les styles pour trois thèmes (clair / sombre / chaud).
 
 Toutes les modifications apportées à la logique de classement doivent être répercutées dans les trois surfaces.
@@ -95,4 +96,4 @@ En résumé : vous êtes libre d'utiliser, modifier et redistribuer ce code, y c
 
 ## 🙋 Support / Contact
 
-Pour toute question, suggestion ou bug, ouvrez une [issue sur GitHub](https://github.com/Mttwt9/scoring-voile/issues).
+Pour toute question, suggestion ou bug, ouvrez une [issue sur GitHub](https://github.com/Mttwt9/scoringChamp/issues).
