@@ -3,7 +3,7 @@
 *Outil de classement pour championnats de voile — fichier HTML autonome, sans installation.*
 
 [![GitHub License](https://img.shields.io/github/license/Mttwt9/scoringChamp?style=flat-square&color=blue)](LICENSE)
-[![Single file](https://img.shields.io/badge/distribution-single%20HTML%20file-green?style=flat-square)]()
+[![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=lastRelease&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest)
 
 ---
 
