@@ -5,7 +5,7 @@
 [![GitHub License](https://img.shields.io/github/license/Mttwt9/scoringChamp?style=flat-square&color=blue)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=lastRelease&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest)
 
-[![Static Badge](https://img.shields.io/badge/Online-Open%20app-blue?style=flat-square)](https://mttwt9.github.io/scoringChamp/scoringChamp.html)
+[![Static Badge](https://img.shields.io/badge/Online-Open%20app-green?style=flat-square)](https://mttwt9.github.io/scoringChamp/scoringChamp.html)
 
 ---
 
