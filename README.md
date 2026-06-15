@@ -5,6 +5,8 @@
 [![GitHub License](https://img.shields.io/github/license/Mttwt9/scoringChamp?style=flat-square&color=blue)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=lastRelease&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest)
 
+[![Static Badge](https://img.shields.io/badge/Online-Open%20app-green?style=flat-square)](https://mttwt9.github.io/scoringChamp/scoringChamp.html)
+
 ---
 
 ## 📖 Présentation
@@ -40,7 +42,7 @@
 
 Aucune installation requise.
 
-1. Cliquer ici pour démarrer l'application ou télécharger le fichier `scoringChamp.html` [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=dernière%20version&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest) pour l'utiliser en mode hors-ligne.
+1. [Cliquer ici](https://mttwt9.github.io/scoringChamp/scoringChamp.html) pour démarrer l'application ou télécharger le fichier `scoringChamp.html` [![GitHub Release](https://img.shields.io/github/v/release/Mttwt9/scoringChamp?style=flat-square&label=dernière%20version&color=magenta)](https://github.com/Mttwt9/scoringChamp/releases/latest) pour l'utiliser en mode hors-ligne.
 2. [Uniquement pour le mode offline] Ouvrir le fichier `scoringChamp.html` dans votre navigateur (Chrome ou Firefox recommandé).
 3. Dans l'onglet **Étapes**, ajouter chaque étape et y glisser-déposer les fichiers CSV SCORE correspondants.
 4. Dans l'onglet **Catégories**, configurer les supports, les catégories et les pénalités.
